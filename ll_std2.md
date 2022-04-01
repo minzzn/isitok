@@ -5,6 +5,12 @@
 ### 사용자가 브라우저를 통해(클라이언트) 어떤 서비스를 요청(request)하면 서버에서는 해당 요청사항에 맞는 결과를 찾아서 사용자에게 응답(response)한다. 기본적으로 TCP/IP(Transmission Control Protocol / Internet Protocol)을 이용하며, 사용 포트 번호는 기본적으로 80이다. HTTP는 1989년 팀 버너스-리에 의해 처음 설계되어 인터넷을 통한 월드 와이드 웹(World-Wide Web 일명 : www) 기반에서 전 세계적인 정보 공유를 이루는데 큰 역할을 했다. 인터넷 기반 서비스에는 HTTP 외에도 Email, FTP, DNS, NEWS 등이 있다.
 ![Alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOuorH%2FbtrmRu6tol9%2Fb6TfAxPy5Z2KK83dDs3Bs1%2Fimg.png "client-server")
 -----------------------------------------------------
+## HTTP의 특징
+> ### 1.클라이언트-서버 모델을 따른다.
+> ### 2.TCP/IP를 이용하는 응용 프로토콜이다.
+> ### 3.비연결형 지향: 클라이언트가 서버에게 리소스를 요청한 후 응답을 받으면 연결을 끊는다.
+> ### 4.무상태성: 각각의 요청은 독립적이다.
+-----------------------------------------------------
 ### 인터넷 주소를 지정할때 http://www.~~~ 와 같이 시작하는 것은 www.~~이라는 인터넷 주소가 가진 데이터 정보 등의 교환을 http의 통신 규약대로 처리하라는 것을 의미한다. 또 HTTP는 애플리케이션 계층의 최상위에 있기 때문에, 기본 레이어들은 HTTP의 명세와는 관련이 없다.
 -----------------------------------------------------
 ## **클라이언트 -----메시지-----> 서버**를 **요청 (request)**이라고 하며,
@@ -17,7 +23,7 @@
  ### *HTTP*는 ** 클라이언트-서버 **가 메시지를 주고받으면 연결을 끊어버린다. 이 특징을 보완하기 위해 * Cookie *와 같은 기술이 등장했다. (무상태, Stateless라고 부름)
 
 ### >또 이 요청과 응답 사이에는 여러 개체들이 있는데, 그 중 *프록시*는 게이트웨이 또는 캐시 역할을 한다.
-![Alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyCVip%2FbtqDpgSyUzJ%2F1qPYdKluKJSM1ypsxZPUzK%2Fimg.png"client-proxy-server")
+![Alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FyCVip%2FbtqDpgSyUzJ%2F1qPYdKluKJSM1ypsxZPUzK%2Fimg.png "client-proxy-server")
 
 > ### 프록시 : 웹브라우저와 서버 사이에 수많은 HTTP 메시지들이 왔다갔다 하는데, 이들이 어떻게 동작하는지 눈에 보이지 않는다. 애플리케이션 계층에서 동작하는 것들을 일반적으로 프록시라고 말한다. 프록시는 눈에 보이거나 그렇지 않을 수도 있으며 다양한 기능들을 수행한다.
 
@@ -33,8 +39,3 @@
 
 #### >크롬에서 오른쪽 마우스를 눌러 검사(Ctrl+Shift+C)로 들어간뒤 Network로 들어가면 해당 페이지의 HTTP 메시지 정보를 확인할 수 있다. 
 -----------------------------------------------------
-## HTTP의 특징
-> ### 1.클라이언트-서버 모델을 따른다.
-> ### 2.TCP/IP를 이용하는 응용 프로토콜이다.
-> ### 3.비연결형 지향: 클라이언트가 서버에게 리소스를 요청한 후 응답을 받으면 연결을 끊는다.
-> ### 4.무상태성: 각각의 요청은 독립적이다.
