@@ -1,0 +1,35 @@
+<style>
+*{
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    font-family:sans-serif;
+}
+a {
+    text-decoration:none;
+    color:#888;
+}
+a:hover {
+    text-decoration:underline;
+}
+header {
+    margin:auto;
+    width:1080px;
+    height:215px;
+    display:flex;
+    align-items:center;
+    position:relative;
+}
+fieldset {
+    border:none;
+}
+.visually-hidden {
+    position:absolute !important;
+    height:1px;
+    width:1px;
+    overflow:hidden;
+    clip:rect(1px 1px 1px 1px);
+    clip:rect(1px 1px 1px 1px);
+    white-space:nowrap;
+}
