@@ -31,7 +31,8 @@
 
 ![Alt text](https://www.netpia.com/image/sogo/img_001.gif)
  
-참고링크:  * <https://gopher-cs.tistory.com/2>   
-           * <https://bomango.tistory.com/8>   
-           * <https://m.blog.naver.com/lge24528/120054724365>   
-           * <https://hihighlinux.tistory.com/73>   
+참고링크:   
+  * <https://gopher-cs.tistory.com/2>   
+   * <https://bomango.tistory.com/8>   
+   * <https://m.blog.naver.com/lge24528/120054724365>   
+   * <https://hihighlinux.tistory.com/73>   
