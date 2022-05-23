@@ -1,15 +1,15 @@
 도메인 네임은 무엇일까요?
 ==========================
-# 도메인 네임 (Domain Name)
-## 웹사이트 네임 . 인터넷 주소의 이름. 
-## 컴퓨터나 통신장비 간의 통신에 최적화된 주소는 IP 주소이지만, 숫자로 이루어져 있어 사람들이 기억하기 어려워 하여 생김.   
+## 도메인 네임 (Domain Name)
+- ### 웹사이트 네임 . 인터넷 주소의 이름. 
+- ### 컴퓨터나 통신장비 간의 통신에 최적화된 주소는 IP 주소이지만, 숫자로 이루어져 있어 사람들이 기억하기 어려워 하여 생김.   
 
 ![Alt text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fo5rxP%2FbtqDwdBlzkJ%2FWIolDKPjfswC6AF3k2xlWk%2Fimg.png)
 
 ![Alt text](https://blog.kakaocdn.net/dn/daixja/btqDwdOqa9y/tbBH8CI7NRp3YbQ5ko68Kk/img.gif)
 
-# 도메인 이름의 구성 (The composition of domain name)
-## 도메인 이름은 알파벳과 숫자, '-'으로 구성되어 있음. 점(dot,'.')으로 구분하여 계층적으로 이루어져 있음. 각 단계는 오른쪽에서부터 1단계, 2단계, 3단계 도메인이라고 불리며, 오른쪽에서 왼쪽으로 갈수록 도메인의 범위가 작아짐.
+## 도메인 이름의 구성 (The composition of domain name)
+### 도메인 이름은 알파벳과 숫자, '-'으로 구성되어 있음. 점(dot,'.')으로 구분하여 계층적으로 이루어져 있음. 각 단계는 오른쪽에서부터 1단계, 2단계, 3단계 도메인이라고 불리며, 오른쪽에서 왼쪽으로 갈수록 도메인의 범위가 작아짐.
 - ### 1단계 : 국가도메인 혹은 일반도메인
 - ### 2단계 : 도메인의 성격
 - ### 3단계 : 도메인 네임을 등록하는 사람이 등록한 이름
@@ -31,7 +31,7 @@
 
 ![Alt text](https://www.netpia.com/image/sogo/img_001.gif)
  
-참고링크:  <https://gopher-cs.tistory.com/2>
-           <https://bomango.tistory.com/8>
-           <https://m.blog.naver.com/lge24528/120054724365>
-           <https://hihighlinux.tistory.com/73>
+참고링크:  * <https://gopher-cs.tistory.com/2>   
+           * <https://bomango.tistory.com/8>   
+           * <https://m.blog.naver.com/lge24528/120054724365>   
+           * <https://hihighlinux.tistory.com/73>   
